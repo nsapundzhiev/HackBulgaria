@@ -1,0 +1,15 @@
+int tetrahedron_filled(int *tetrahedrons, int water){
+		int count=0;
+		float sum=0;
+		float V;
+			for (int i=0; 0<tetrahedrons[i]; i++)
+			{
+				 float V = fill_tetrahedron(tetrahedrons[i]);
+				 sum += V;
+				 	if (sum < water)
+				 	{
+				 		count++;
+				 	}
+			}
+		return count;
+	}
