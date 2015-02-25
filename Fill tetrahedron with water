@@ -1,0 +1,6 @@
+float fill_tetrahedron(int num){
+
+	float V= ((pow(num, 3)*sqrt(2)) / 12)/1000;
+
+	return V;
+}
